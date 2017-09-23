@@ -2,7 +2,7 @@
 For understand TestNG Listeners
 
 <p><strong>TestNG</strong>&nbsp;listener extends the marker interface&nbsp;<strong>org.testng.ITestNGListener</strong>.</p>
-<p>TestNG Listners help to generate repots and provide test informations</p>
+<p>TestNG Listeners help to generate reports and provide test informations</p>
 <p>There are 9 listeners that TestNG provides:</p>
 <ul>
     <li>IExecutionListener</li>
@@ -24,3 +24,4 @@ For understand TestNG Listeners
 
 <p><em><strong>IExecutionListener</strong> </em>is a listener that trigger start and end of TestNG run. Two method:</p>
 <p>a) onExecutionStart() : It called before the TestNG starts running.<br />b) onExecutionFinish(): It called after TestNG is done running all the test suites.</p>
+
