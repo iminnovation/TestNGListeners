@@ -13,8 +13,7 @@ For understand TestNG Listeners
     <li>ITestListener</li>
     <li>IConfigurationListener</li>
     <li>IInvokedMethodListener</li>
-    <li>IHookable</li>
-    
+    <li>IHookable</li>    
 </ul>
 
 <p><strong>There is no way to define run order of listners.</strong></p>
@@ -24,4 +23,7 @@ For understand TestNG Listeners
 
 <p><em><strong>IExecutionListener</strong> </em>is a listener that trigger start and end of TestNG run. Two method:</p>
 <p>a) onExecutionStart() : It called before the TestNG starts running.<br />b) onExecutionFinish(): It called after TestNG is done running all the test suites.</p>
+
+<p><em><strong>IAnnotationTransformer</strong> </em>is a TestNG listener which allows you to modify TestNG annotation and configure it further.</p>
+
 
