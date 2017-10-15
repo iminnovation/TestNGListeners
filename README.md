@@ -18,7 +18,7 @@ For understand TestNG Listeners
 
 <p><strong>There is no way to define run order of listners.</strong></p>
 <p>&nbsp;</p>
-<p>In this repo, I have demonstrated examples of below listed listeners.</p>
+<p>In this repository, I have demonstrated examples of below listed listeners.</p>
 <p>&nbsp;</p>
 
 <p><em><strong>IExecutionListener</strong> </em>is a listener that trigger start and end of TestNG run. Two method:</p>
